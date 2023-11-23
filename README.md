@@ -1,7 +1,7 @@
 # Added a Read.md file for my project
 Computer Science Department Website
 Introduction
-This project aims to create a 10-page website for the Computer Science Department, showcasing various aspects of the department, providing relevant information, and improving the user experience. The website is developed using HTML, CSS, and React, focusing on a responsive design for accessibility across different devices.
+This project aims to create a 10-page website for the Computer Science Department, showcasing various aspects of the department, providing relevant information, and improving the user experience. The website is developed using HTML, CSS, and Javascript, focusing on a responsive design for accessibility across different devices.
 
 Purpose
 The purpose of this website is to:
