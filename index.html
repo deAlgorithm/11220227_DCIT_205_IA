@@ -5,40 +5,69 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>HOME | COMPSSA-UoG</title>
     <link rel="stylesheet" href="styles.css">
-    <link rel="stylesheet" href="/events.css">
+    
 </head>
 <body>
     
     <header class="header">
-        <div class="nav-bar" onclick="toggleNav(this)" >
-            <div class="bar1"></div>
-            <div class="bar2"></div>
-            <div class="bar3"></div>
+        <div class="mobile-nav">
+            <div class="nav-bar" onclick="toggleNav(this)" >
+                <div class="bar1"></div>
+                <div class="bar2"></div>
+                <div class="bar3"></div>
+            </div> 
+              
+        <div id="mySidenav" class="sidenav">
+            <a href="/index.html">Home</a>
+            <a href="/about.html">About</a>
+            <a href="/catalog.html">Catalog</a>
+            <a href="/resources.html">Resources</a>
+            <a href="/admission.html">Admission</a>
+            <a href="/events.html">Events</a>
+            <a href="/blogs.html">Blogs</a>
+            <a href="/suggest.html">Suggestion</a>
+            <a href="/FAQs.html">FAQS</a>
+            <a href="/contact.html">CONTACT US</a>
+        </div> 
+        </div>
+        
+        <div class="navbar">
+            <ul>
+                <li><a href="/index.html">Home</a></li>
+                <li><a href="#">COMPSSA-UoG</a>
+                    <ul>
+                       <li><a href="/about.html">About</a></li>
+                       <li><a href="/FAQs.html">FAQs</a></li>
+                        <li><a href="/suggest.html">Suggestions</a></li>
+                        <li><a href="/contact.html">Contact Us</a></li> 
+                        <li><a href="/admission.html">Admissions</a></li>
+                    </ul>
+                </li>
+                <li><a href="#">Library</a>
+                    <ul>
+                        <li><a href="/resources.html">Resources</a></li>
+                        <li><a href="/catalog.html">Catalog</a></li>
+                    </ul>
+                </li>
+                <li><a href="#">Pulse</a>
+                    <ul>
+                        <li><a href="/events.html">Events</a></li>
+                        <li><a href="/blogs.html">Blogs</a></li> 
+                    </ul>
+                </li>
+            </ul>
         </div>
         <div class="logo">
             <img href="/index.html" src="/images/comScience_logo.png" alt="" srcset="">
         </div>
+       
     </header>
 
-    
-    <div id="mySidenav" class="sidenav">
-        <a href="/index.html">Home</a>
-        <a href="/about.html">About</a>
-        <a href="/catalog.html">Catalog</a>
-        <a href="/resources.html">Resources</a>
-        <a href="/admission.html">Admission</a>
-        <a href="/events.html">Events</a>
-        <a href="/blogs.html">Blogs</a>
-        <a href="/suggest.html">Suggestion</a>
-        <a href="/FAQs.html">FAQS</a>
-        <a href="/contact.html">CONTACT US</a>
-    </div>
+   
       
         
       
-<div >
-    <img class="index-banner" src="/images/index-poster.jpg">
-</div>
+
 <div class="index-main" >
     <h2>COMPSSA UoG </h2>
 </div>
@@ -78,7 +107,7 @@
 
         <div class="news-item">
             <div class="news-img">
-                <img src="/images/mews-2.jpeg" alt="Image 2">
+                <img src="/images/AI.jpg" alt="Image 2">
             </div>
             <div class="news-content">
                 <div class="news-title">
@@ -100,7 +129,7 @@
                     <h2>The Foundations of Web Development</h2>
                     <span>Web development is more than just coding; it's a blend of art and science that encompasses the creation and maintenance of websites and web applications.</span></div>
                 <div class="news-date">Thu 29 Jun 2023</div>
-                <a class="click-here" href="/blogs.html" target="">Read More...</a>
+                <a class="click-here" href="/blogs.html" >Read More...</a>
             </div>
         </div>
         <hr class="line" >
