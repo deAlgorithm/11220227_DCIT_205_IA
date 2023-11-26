@@ -1,0 +1,406 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>CATALOG | COMPSSA-UoG</title>
+        <link rel="stylesheet" href="styles.css">
+    </head>
+    <body>
+        <header class="header">
+            <div class="mobile-nav">
+                <div class="nav-bar" onclick="toggleNav(this)" >
+                    <div class="bar1"></div>
+                    <div class="bar2"></div>
+                    <div class="bar3"></div>
+                </div> 
+                  
+            <div id="mySidenav" class="sidenav">
+                <a href="/index.html">Home</a>
+                <a href="/about.html">About</a>
+                <a href="/catalog.html">Catalog</a>
+                <a href="/resources.html">Resources</a>
+                <a href="/admission.html">Admission</a>
+                <a href="/events.html">Events</a>
+                <a href="/blogs.html">Blogs</a>
+                <a href="/suggest.html">Suggestion</a>
+                <a href="/FAQs.html">FAQS</a>
+                <a href="/contact.html">CONTACT US</a>
+            </div> 
+            </div>
+            
+            <div class="navbar">
+                <ul>
+                    <li><a href="/index.html">Home</a></li>
+                    <li><a href="#">COMPSSA-UoG</a>
+                        <ul>
+                           <li><a href="/about.html">About</a></li>
+                           <li><a href="/FAQs.html">FAQs</a></li>
+                            <li><a href="/suggest.html">Suggestions</a></li>
+                            <li><a href="/contact.html">Contact Us</a></li> 
+                            <li><a href="/admission.html">Admissions</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="#">Library</a>
+                        <ul>
+                            <li><a href="/resources.html">Resources</a></li>
+                            <li><a href="/catalog.html">Catalog</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="#">Pulse</a>
+                        <ul>
+                            <li><a href="/events.html">Events</a></li>
+                            <li><a href="/blogs.html">Blogs</a></li> 
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+            <div class="logo">
+                <img href="/index.html" src="/images/comScience_logo.png" alt="" srcset="">
+            </div>
+           
+        </header>
+    
+         <h1 class="Catalogue-head">Undergraduate degree programmes</h1> 
+    <div class="undergraduate-courses">
+        <div>
+            <img class="under-img" src="/images/under-course.jpg" alt="" srcset="">
+        </div>
+        <div>
+        <p>The Department offers two undergraduate degree programmes, Bachelor of Science in Computer Science Single-Major (3:2:1:1) and Major-Minor (3:2:2:1) as well as Bachelor of Science in Information Technology.</p>
+        <p>To qualify for admission into Computer Science programmes at Level 200, candidates must have taken the following courses at Level 100:</p>
+        <p>MATH 121: Algebra and Trigonometry</p>
+        <p>MATH 122: Calculus I </p>
+        <p>CSCD 101: Introduction to Computer Science I</p>
+        <p>CSCD 102: Introduction to Computer Science II</p>
+        <p>Every student in the Department of Computer Science must own his or her laptop with minimum specification of:</p>
+        <p>i3 64-bit Processor</p>
+        <p>8GB RAM</p>
+        <p>500GB HD or 256 SSD</p>
+        </div>
+    </div>
+   <div class="UC-container">
+    <div class="courses-section">
+        <div class="Cdropdown">
+            <h1>Computer Science</h1>
+            <button class="Cdropbtn active" onclick="toggleDropdown('level100',this)">LEVEL 100</button>
+            <div class="Cdropdown-content active" id="level100">
+                <h2>First Semester</h2>
+                <p>UGRC 150   Critical Thinking and Practical Reasoning</p>
+                <p>DCIT 101	Introduction to Computer Science</p>
+                <p>DCIT 103	Office Productivity Tools</p>
+                <p>DCIT 105	Mathematics for IT Professionals</p>
+                <h2>ELECTIVES:</h2>
+                <p>MATH 121	Algebra and Trigonometry</p> 
+	            <p>MATH 123 Vectors and Geometry</p>
+	            <p>ECON 101 Introduction to Economics I</p>
+                <h2>Second Semester</h2>
+                <p>UGRC 110	Academic Writing I</p>   
+                <p>UGRC 131-136	Understanding Human Society</p>
+                <p>MATH 122	Calculus I</p>  
+                <p>STAT 112	Introduction to Statistics and Probability II </p>                
+                <p>DCIT 104	Programming</p>
+                <p>DCIT 102	Computer Hardware Fund. and Circuits</p> 
+            </div>
+            <button class="Cdropbtn" onclick="toggleDropdown('level200',this)">LEVEL 200</button>
+            <div class="Cdropdown-content" id="level200">
+                <h2>First Semester</h2>
+                <p>UGRC 210	Academic Writing II</p>
+                <p>DCIT 201	Programming I</p>
+                <p>DCIT 203	Digital and Logic Systems Design</p>
+                <p>DCIT 205	Multi Media and Web Design</p>
+                <p>DCIT 207	Computer Architecture & Organisation</p>
+                <p>DCIT 209	E-Business Architectures</p>
+                <h2>Second Semester</h2>
+                <p>UGRC 220	Introduction to African Studies</p>
+                <p>DCIT 202	Mobile Application Development</p>
+                <p>DCIT204	Data Structures & Algorithm I</p>
+                <p>DCIT206	Systems Administration</p>
+                <p>DCIT208	Software Engineering</p>
+                <h2>ELECTIVES:</h2>
+                <p>DCIT 200	Internship</p>
+                <p>DCIT 212	Numerical and Computational Methods</p>
+                <p>DCIT 214	Information Modeling and Specification</p>
+ 
+            </div>
+            <button class="Cdropbtn" onclick="toggleDropdown('level300',this)">LEVEL 300</button>
+            <div class="Cdropdown-content" id="level300">
+                <h2>First Semester</h2>
+                <p>DCIT 301	Operating Systems</p>
+                <p>DCIT 303	Computer Networks</p>
+                <p>DCIT 305	Database Fundamentals</p>
+                <p>DCIT 313	Introduction to Artificial Intelligence</p>
+                <p>DCIT 317	IT Project Management</p>
+                <h2>ELECTIVES:</h2>
+                <p>DCIT 307	Mini-Project</p>
+                <p>DCIT 315	Principles of 3D Environment</p>
+                <p>DCIT 321	Software Evolution</p>
+                <h2>Second Semester</h2>
+                <p>DCIT 302	Human Computer Interaction</p>
+                <p>DCIT 304	Research Methods</p>
+                <p>DCIT 308	Data Structures and Algorithms II</p>
+                <p>DCIT 312	Information Security Management</p>
+                <p>DCIT 318	Programming II</p>
+                <h2>ELECTIVES:</h2>
+                <p>DCIT 314	Game Engine Architecture</p>
+                <p>DCIT 322	Database Management Administration</p>
+            </div>
+            <button class="Cdropbtn" onclick="toggleDropdown('level400',this)">LEVEL 400</button>
+            <div class="Cdropdown-content" id="level400">
+                <h2>First Semester</h2>
+                <p>DCIT 400	Project</p>
+                <p>DCIT 401	Social, Legal, Ethical and Professional Issues</p>
+                <p>DCIT 409	Digital Forensics</p>
+                <h2>ELECTIVES:</h2>
+                <p>DCIT 413 Play and Games</p>
+                <p>DCIT 415 Advanced Software Engineering</p>
+                <p>DCIT 419 Agile Methods</p>
+                <p>DCIT 421 Persuasive Systems Development</p>
+                <h2>Second Semester</h2>
+                <p>DCIT 400	Project</p>
+                <p>DCIT 402	Management Principles in Computing</p>
+                <p>DCIT 418	Systems and Network Security</p>
+                <p>DCIT 428	Wireless Systems and Networks</p>
+                <h2>ELECTIVES:</h2>
+                <p>DCIT 404	Advanced Databases</p>
+                <p>DCIT 406	Advanced Computer Networks</p>
+                <p>DCIT 408	Compilers</p>
+                <p>DCIT 426	Telecommunication Systems</p>
+                <p>DCIT 412	Computer Vision</p>
+                <p>DCIT 414	Data Mining and Warehousing</p>
+                <p>DCIT 416	Digital Signal Processing</p>
+                <p>DCIT 422	Information Visualization </p>
+            </div>
+        </div>
+    </div>
+    <div class="courses-section">
+        <div class="cdropdown">
+            <h1>Information Technology </h1>
+            <button class="cdropbtn active" onclick="toggledropdown('Level100',this)">LEVEL 100</button>
+            <div class="cdropdown-content active" id="Level100">
+                <h2>First Semester</h2>
+                <p>UGRC 150   Critical Thinking and Practical Reasoning</p>
+                <p>DCIT 101	Introduction to Computer Science</p>
+                <p>DCIT 103	Office Productivity Tools</p>
+                <p>DCIT 105	Mathematics for IT Professionals</p>
+                <h2>ELECTIVES:</h2>
+                <p>MATH 121	Algebra and Trigonometry</p> 
+	            <p>MATH 123 Vectors and Geometry</p>
+	            <p>ECON 101 Introduction to Economics I</p>
+                <h2>Second Semester</h2>
+                <p>UGRC 110	Academic Writing I</p>   
+                <p>UGRC 131-136	Understanding Human Society</p>
+                <p>MATH 122	Calculus I</p>  
+                <p>STAT 112	Introduction to Statistics and Probability II </p>                
+                <p>DCIT 104	Programming</p>
+                <p>DCIT 102	Computer Hardware Fund. and Circuits</p> 
+            </div>
+            <button class="cdropbtn" onclick="toggledropdown('Level200',this)">LEVEL 200</button>
+            <div class="cdropdown-content" id="Level200">
+                <h2>First Semester</h2>
+                <p>UGRC 210	Academic Writing II</p>
+                <p>DCIT 201	Programming I</p>
+                <p>DCIT 203	Digital and Logic Systems Design</p>
+                <p>DCIT 205	Multi Media and Web Design</p>
+                <p>DCIT 207	Computer Architecture & Organisation</p>
+                <p>DCIT 209	E-Business Architectures</p>
+                <h2>Second Semester</h2>
+                <p>UGRC 220	Introduction to African Studies</p>
+                <p>DCIT 202	Mobile Application Development</p>
+                <p>DCIT204	Data Structures & Algorithm I</p>
+                <p>DCIT206	Systems Administration</p>
+                <p>DCIT208	Software Engineering</p>
+                <h2>ELECTIVES:</h2>
+                <p>DCIT 200	Internship</p>
+                <p>DCIT 212	Numerical and Computational Methods</p>
+                <p>DCIT 214	Information Modeling and Specification</p>
+ 
+            </div>
+            <button class="cdropbtn" onclick="toggledropdown('Level300',this)">LEVEL 300</button>
+            <div class="cdropdown-content" id="Level300">
+                <h2>First Semester</h2>
+                <p>DCIT 301	Operating Systems</p>
+                <p>DCIT 303	Computer Networks</p>
+                <p>DCIT 305	Database Fundamentals</p>
+                <p>DCIT 313	Introduction to Artificial Intelligence</p>
+                <p>DCIT 317	IT Project Management</p>
+                <h2>ELECTIVES:</h2>
+                <p>DCIT 307	Mini-Project</p>
+                <p>DCIT 315	Principles of 3D Environment</p>
+                <p>DCIT 321	Software Evolution</p>
+                <h2>Second Semester</h2>
+                <p>DCIT 302	Human Computer Interaction</p>
+                <p>DCIT 304	Research Methods</p>
+                <p>DCIT 308	Data Structures and Algorithms II</p>
+                <p>DCIT 312	Information Security Management</p>
+                <p>DCIT 318	Programming II</p>
+                <h2>ELECTIVES:</h2>
+                <p>DCIT 314	Game Engine Architecture</p>
+                <p>DCIT 322	Database Management Administration</p>
+            </div>
+            <button class="cdropbtn" onclick="toggledropdown('Level400',this)">LEVEL 400</button>
+            <div class="cdropdown-content" id="Level400">
+                <h2>First Semester</h2>
+                <p>DCIT 400	Project</p>
+                <p>DCIT 401	Social, Legal, Ethical and Professional Issues</p>
+                <p>DCIT 409	Digital Forensics</p>
+                <h2>ELECTIVES:</h2>
+                <p>DCIT 413 Play and Games</p>
+                <p>DCIT 415 Advanced Software Engineering</p>
+                <p>DCIT 419 Agile Methods</p>
+                <p>DCIT 421 Persuasive Systems Development</p>
+                <h2>Second Semester</h2>
+                <p>DCIT 400	Project</p>
+                <p>DCIT 402	Management Principles in Computing</p>
+                <p>DCIT 418	Systems and Network Security</p>
+                <p>DCIT 428	Wireless Systems and Networks</p>
+                <h2>ELECTIVES:</h2>
+                <p>DCIT 404	Advanced Databases</p>
+                <p>DCIT 406	Advanced Computer Networks</p>
+                <p>DCIT 408	Compilers</p>
+                <p>DCIT 426	Telecommunication Systems</p>
+                <p>DCIT 412	Computer Vision</p>
+                <p>DCIT 414	Data Mining and Warehousing</p>
+                <p>DCIT 416	Digital Signal Processing</p>
+                <p>DCIT 422	Information Visualization </p>
+            </div>
+        </div>
+    </div>
+</div>
+<h1 class="Catalogue-head">MPhil/MSc degree programmes</h1>
+<div class="undergraduate-courses">
+        <div>
+        <img class="under-img" src="/images/coursedetail.jpeg" >
+    </div>
+    <div>
+    <p>The Department of Computer Science – University of Ghana currently runs Masters of Science (MSc.) in Computer Science and Master of Philosophy (MPhil.) in Computer Science.</p>
+    <p>The MSc. is a 1-year (weekend/evening) programme with a capstone project while the MPhil is a 2-year (full-time) programme. The first year of the MPhil is taught course and second year is research and dissertation. Both programmes are accelerated master’s programme specially designed to train current and future computer scientist who are available for full-time or part-time study.</p>
+    <p>Students enrolled in these programmes are equipped with broader knowledge in theoretical computer science and advance technical skills to approach science in technology as a disruptive force to manage complex problems of the global society. At the end of these programmes, students will gain hands-on experience in solving complex, and unstructured scientific problems while learning subjects like Advance Databases, Advance Data Structures and Algorithms and Networks</p>
+  </div>
+</div>
+<div class="PG-container">
+    <div class="courses-section">
+        
+            <div class="Mdropdown">
+                <h1>MPhil. Computer Science</h1>
+                <button class="Mdropbtn active" onclick="toggleMDropdown('LEVEL100',this)">LEVEL 600</button>
+                <div class="Mdropdown-content active" id="LEVEL100">
+                    <h2>First Semester</h2>
+                    <p>CSCD 601	Research Methods</p>
+                    <p>CSCD 603	Advanced Data Structures and Algorithms</p>
+                    <p>CSCD 609	Principles of Wireless and Mobile Systems</p>
+                    <h2>ELECTIVES:</h2>
+                    <p>CSCD 607	Advanced Computer Networks</p>
+                    <p>CSCD 611	Advanced Database Systems</p>
+                    <p>CPEN 641	Advanced Operating Systems</p>
+                    <p>CPEN 637	Human Computer Interaction</p>
+                    <h2>Second Semester</h2>
+                    <p>CSCD 606	Advanced Software Engineering</p>
+                    <p>CSCD 604	Distributed Systems</p>
+                    <p>CSCD 610	Seminar I</p>
+                    <p>CSCD 612	Intelligent Systems</p> 
+                    <h2>ELECTIVES: </h2>
+                    <p>CSCD 616	Bioinformatics</p>
+                    <p>CSCD 608	Advanced Computer Vision</p>
+                    <p>CSCD 614	Wireless Systems Design</p>
+                    <p>CPEN 656	Networks Security</p>
+                    <p>MATH 652	Computational Mathematics</p>
+                    <p>CSCD 630	MPhil Thesis</p>
+                    
+                </div>
+            </div>
+    </div>
+    <div class="courses-section">
+        <div class="Mdropdown">
+                <h1>MSc. Computer Science</h1>
+                <button class="Mdropbtn active" onclick="toggleMDropdown('LEVEL200',this)">LEVEL 600</button>
+                <div class="Mdropdown-content active" id="LEVEL200">
+                    <h2>First Semester</h2>
+                    <p>CSCD 601	Research Methods</p>
+                    <p>CSCD 603	Advanced Data Structures and Algorithms</p>
+                    <p>CSCD 609	Principles of Wireless and Mobile Systems</p>
+                    <h2>ELECTIVES:</h2>
+                    <p>CSCD 607	Advanced Computer Networks</p>
+                    <p>CSCD 611	Advanced Database Systems</p>
+                    <p>CPEN 641	Advanced Operating Systems</p>
+                    <p>CPEN 637	Human Computer Interaction</p>
+                    <h2>Second Semester</h2>
+                    <p>CSCD 606	Advanced Software Engineering</p>
+                    <p>CSCD 604	Distributed Systems</p>
+                    <p>CSCD 610	Seminar I</p>
+                    <p>CSCD 612	Intelligent Systems</p> 
+                    <h2>ELECTIVES: </h2>
+                    <p>CSCD 616	Bioinformatics</p>
+                    <p>CSCD 608	Advanced Computer Vision</p>
+                    <p>CSCD 614	Wireless Systems Design</p>
+                    <p>CPEN 656	Networks Security</p>
+                    <p>MATH 652	Computational Mathematics</p>
+                    <p>CSCD 630	MPhil Thesis</p>
+                </div>
+        </div>
+    </div>
+
+    
+</div>
+<footer class="Footer">
+    <div class="flex-container">
+        <div class="flex-item">
+            <h2>Academics</h2>
+            <ul>
+                <li><a href="/courses.html">Undergraduate Courses</a></li>
+                <li>Graduate Courses (MPhil Computer Science)</li>
+                <li>Graduate Courses (MSc Computer Science)</li>
+                <li>Graduate Courses (PhD)</li>
+                <li>Academic Calendar</li>
+                <li>Level 200 & 300 Timetable</li>
+                <li>Placements For Level 200 Students</li>
+                <li><a href="/suggest.html">Suggestion Form</a> </li>
+            </ul>
+            <h2>Admissions</h2>
+            <ul>
+                <li><a href="/courses.html">Undergraduate</a></li>
+                <li>Graduate</li>
+                <li>International Students</li>
+                <li>Entry Requirements</li>
+                <li>Contact Us</li>
+                <li><a href="/FAQs.html">FAQs</a></li>
+            </ul>
+        </div>
+        <div class="flex-item">
+            <h2>About The Department</h2>
+            <ul>
+                <li><a href="/index.html">Introducing DCS</a></li>
+                <li>Head of Department's office</li>
+                <li><a href="/falculty.html">Faculty</a></li>
+                <li><a href="/events.html">Events</a></li>
+            </ul>
+            
+            <h2>Research</h2>
+            <ul>
+                <li>Research at DCS</li>
+                <li>Research Impact</li>
+            </ul>
+            <h2>Stay updated with our latest</h2>
+            <input type="email" placeholder="Enter email address" id="email-input">
+            <button class="submit-btn" type="submit">Subscribe</button>
+        </div>
+        <div class="flex-item">
+            <h2>Contact Us</h2>
+            <p>Phone & Email</p>
+            <p>+233 501 382 035</p>
+            <p>+233 559 145 698</p>
+            <p><a href="mailto:dcs@ug.edu.gh">dcs@ug.edu.gh</a></p>
+            <p>Location</p>
+            <p>University Of Ghana, Legon Campus</p>
+            <p>Opposite Mathematics Department</p>
+        </div>
+        
+    </div>   
+        
+            <p> &copy; 2023 All rights reserved</p>
+        
+</footer>
+
+<script src="/scripts.js"></script>
+</body>
+</html>
