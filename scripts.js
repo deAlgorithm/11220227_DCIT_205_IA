@@ -68,7 +68,7 @@ faqItems.forEach(item => {
     });
 });
 
-// Sample FAQ data
+
 const faqs = [
     {
       title: "Is the Department of Computer Science involved in any collaborative research projects?",

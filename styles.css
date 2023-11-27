@@ -577,18 +577,13 @@ a{
   
 }
 
-
-
-
-
-/* Style the email input field */
 #email-input {
 width: 80%;
 padding: 10px;
 margin: 10px 0;
 border: 1px solid #ccc;
 border-radius: 4px;
-font-size: 16px;
+font-size: 17px;
 }
 .line {
 border-bottom: 1px solid #888;
