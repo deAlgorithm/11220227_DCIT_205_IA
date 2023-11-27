@@ -38,7 +38,7 @@ Run the Project:
 
 Open the HTML files in a web browser to view the website.
 Screenshots
-Include screenshots of each page of your website here.
+Below are screenshots of each page of my website .
 
 
 ![about html](https://github.com/deAlgorithm/11220227_DCIT_205_IA/assets/131563995/920836af-b015-4c18-8e2a-442a109b6b45)
