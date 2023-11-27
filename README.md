@@ -33,14 +33,24 @@ Navigate to the Project Directory:
 Access the project folder:
 bash
 Copy code
-cd your-forked-repo
+cd https://github.com/deAlgorithm/11220227_DCIT_205_IA/tree/main
 Run the Project:
 
 Open the HTML files in a web browser to view the website.
 Screenshots
 Include screenshots of each page of your website here.
 
-[Insert Screenshots Here]
+
+![about html](https://github.com/deAlgorithm/11220227_DCIT_205_IA/assets/131563995/920836af-b015-4c18-8e2a-442a109b6b45)
+![admission html_screenshot](https://github.com/deAlgorithm/11220227_DCIT_205_IA/assets/131563995/98f32804-6ac4-40ce-9f1a-ddff2a9f247a)
+![catalog html](https://github.com/deAlgorithm/11220227_DCIT_205_IA/assets/131563995/d16faba9-3ad0-4808-ba5c-d1ab8f2d0094)
+![blogs html](https://github.com/deAlgorithm/11220227_DCIT_205_IA/assets/131563995/795ace1b-f682-4b19-8193-d3ca7e2b7165)
+![contact html](https://github.com/deAlgorithm/11220227_DCIT_205_IA/assets/131563995/8104d817-2fc5-46e4-b969-914240cb7ab3)
+![events html_screenshot](https://github.com/deAlgorithm/11220227_DCIT_205_IA/assets/131563995/939cadd1-492a-4640-9e48-f184844a345e)
+![FAQs html](https://github.com/deAlgorithm/11220227_DCIT_205_IA/assets/131563995/8586d78e-f8b4-43a7-9415-b9ceaa829c7d)
+![index](https://github.com/deAlgorithm/11220227_DCIT_205_IA/assets/131563995/7f76d04d-b61e-419c-8e3b-2de519af79ca)
+![resources](https://github.com/deAlgorithm/11220227_DCIT_205_IA/assets/131563995/4b436842-eab9-4b3e-ab5a-1d72478718d6)
+![suggest html](https://github.com/deAlgorithm/11220227_DCIT_205_IA/assets/131563995/96c6b715-6cf3-4990-a021-bb5cebc29419)
 
 Author Information
 Name: OTABIL ISHAQUE
